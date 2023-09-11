@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:rgb(226, 144, 43);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px;
+}
+.nav-link{
+    color:antiquewhite;
+    text-decoration: none;
+    border:3px solid rgb(190, 230, 13);
+    padding: 10px;
+    border-radius: 10px;
+}
+.event-card
+{
+    color:red;
+}
+.no{
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    display: flex;
+    gap:20px;
+}
+#Events{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+#logo{
+    width: 100px;
+    border: 6px solid rgb(13, 230, 28);
+}
+footer{
+    background-color:rgb(226, 43, 67);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.event-card{
+    
+    text-align: center;
+    box-shadow:0 6px 8px rgb(226, 43, 73) ;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+}
+.details-btn
+{
+    color:black;
+    text-decoration: none;
+    border:1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+#event-details{
+    max-width: 680px;
+    box-shadow: 0 6px 8px rgb(15, 15, 15);
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    
+   
+}
+.eventform{
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.apply-form label,.apply-form input{
+    display: block;
+    width:100%;
+    margin:10px 0;
+}
